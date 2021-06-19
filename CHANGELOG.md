@@ -1,4 +1,4 @@
-## [1.0.2]
+## [1.1.0]
 - Added github workflow to automate gem build & push
 
 ## [1.0.2]
