@@ -9,11 +9,11 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    run:
-      - git config --global user.email "spam@flinkwise.com"
-      - git config --global user.name "master"
     steps:
       - uses: actions/checkout@v1
+      - run: |
+              git config --global user.email "spam@flinkwise.com"
+              git config --global user.name "master"
 
       - name: Release Gem
         if: contains(github.ref, 'refs/tags/v')
