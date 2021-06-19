@@ -27,11 +27,13 @@ Or install it yourself as:
 
 `rails g database_logic:view users_full`
 
-`rails g database_logic:trigger MyAwesomeTrigger after insert users` 
+`rails g database_logic:trigger CreateInitialSnapsho after insert users` 
+
+`rails g database_logic:trigger DeleteUserData before delete users`
 
 `rails g database_logic:function SuperFunc`
 
-`rails g database_logic:procedure MegaProcedure`
+`rails g database_logic:procedure CleanupLogTables`
 
 `rails g database_logic:event Daily 24 hour`
 
