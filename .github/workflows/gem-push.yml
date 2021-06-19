@@ -20,4 +20,4 @@ jobs:
           GIT_AUTHOR_NAME: ${{secrets.NAME}}
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           RUBYGEMS_API_KEY: ${{secrets.RUBYGEMS_API_KEY}}
-          RELEASE_COMMAND: git config --global user.email "$GIT_AUTHOR_EMAIL" && git config --global user.name "$GIT_AUTHOR_NAME" && rake release
+          RELEASE_COMMAND: git config --global user.email $GIT_AUTHOR_EMAIL && git config --global user.name $GIT_AUTHOR_NAME && rake release
