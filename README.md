@@ -1,6 +1,10 @@
 # DatabaseLogic
 
-Yeah, yeah, database layer logic is a big no-no in the Rails community. But if you're building something serious, sooner or later you will need to break the rules. There are several gems out there that come up with different solutions, yet they are very opinionated and sometimes get in the way. This simple gem tries to solve these issues.
+Right, database layer logic is a big no-no in the Rails community.
+
+But if you're building something serious, sooner or later you will need to break the rules - none of these frameworks are silver bullets despite the almost-fanatism behind their doctrines. 
+
+There are several gems out there that come up with different solutions, yet they are very opinionated and sometimes get in the way. This simple gem tries to solve these issues with a few simple tasks and generators.
 
 ## Installation
 
@@ -18,7 +22,21 @@ Or install it yourself as:
 
     $ gem install database_logic
 
-## Usage
+
+## Quick howto
+
+`rails g database_logic:view users_full`
+
+`rails g database_logic:trigger MyAwesomeTrigger after insert users` 
+
+`rails g database_logic:function SuperFunc`
+
+`rails g database_logic:procedure MegaProcedure`
+
+`rails g database_logic:event Daily 24 hour`
+
+
+## Usage / walkthrough
 
 First, let's try creating a view. For this, we will need an User model, as follows:
 
