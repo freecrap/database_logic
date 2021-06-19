@@ -35,6 +35,8 @@ Or install it yourself as:
 
 `rails g database_logic:event Daily 24 hour`
 
+`rails g database_logic:event hourly_task 60 minute`
+
 
 ## Usage / walkthrough
 
