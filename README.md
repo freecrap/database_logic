@@ -161,7 +161,6 @@ Let's try it out, in a rails console (`rails c`)
 2.5.5 :008 > Transaction.create(user_id: 1, amount_in_cents: 123, kind: "Transfer")
  => #<Transaction id: 81, user_id: 1, amount_in_cents: 123, kind: "Transfer", created_at: "2021-06-19 18:05:32", updated_at: "2021-06-19 18:05:32">
 2.5.5 :009 > User.first.balance_in_cents;
-  User Load (1.6ms)  SELECT `users`.* FROM `users` ORDER BY `users`.`id` ASC LIMIT 1
  => 123
 ```
 
