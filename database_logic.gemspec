@@ -8,18 +8,18 @@ Gem::Specification.new do |spec|
   spec.name          = "database_logic"
   spec.version       = DatabaseLogic::VERSION
   spec.authors       = ["Nick"]
-  spec.email         = ["nick@flinkwise.com"]
+  spec.email         = ["spam@flinkwise.com"]
 
   spec.summary       = "Helps working with database logic."
   spec.description   = "This gem lets you write SQL functions, procedures, scheduled events, views and triggers/notifications.."
-  spec.homepage      = "https://github.com"
+  spec.homepage      = "https://github.com/freecrap/database_logic"
   spec.license       = "MIT"
   spec.required_ruby_version = ">= 2.4.0"
 
-  spec.metadata["allowed_push_host"] = "to do Set to 'http://mygemserver.com'"
+  #spec.metadata["allowed_push_host"] = "to do Set to 'http://mygemserver.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://www.github.com"
+  spec.metadata["source_code_uri"] = "https://github.com/freecrap/database_logic"
   spec.metadata["changelog_uri"] = "https://www.github.com/changelog.md"
 
   # Specify which files should be added to the gem when it is released.
