@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
 module DatabaseLogic
-  VERSION = "1.3.0"
+  VERSION = "1.8.0"
 end
