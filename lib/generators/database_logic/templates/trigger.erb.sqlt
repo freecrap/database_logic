@@ -1,0 +1,5 @@
+create trigger <%= name %> <%= @run_when %> <%= @sql_action %> on [DB].<%= @table %>
+for each row
+    begin
+	# do something with NEW.<%= @table.singularize %>_ATTRIBUTE...
+    end;

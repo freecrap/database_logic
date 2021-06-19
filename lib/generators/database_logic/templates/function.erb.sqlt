@@ -1,0 +1,8 @@
+create function [DB].<%= @name %>(some_parameter int) returns int
+deterministic
+reads sql data
+begin
+  # do something here
+  return 0
+end;
+

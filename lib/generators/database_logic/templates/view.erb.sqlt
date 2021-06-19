@@ -1,0 +1,16 @@
+create or replace view [DB].<%= @name %> as
+    # add your SQL here
+    # select * from [DB].table where...
+    
+    # Tip: you can also back views with read-only models, eg:
+    
+    # class YourModel < ApplicationRecord
+    #   self.table_name = "<%= @name %>"
+    #   
+    #   def readonly?
+    #     true
+    #   end
+    # end
+    
+    
+    # this is useful for instance for reporting purpose where your view may also be used by external applications

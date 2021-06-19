@@ -1,0 +1,6 @@
+create procedure [DB].<%= name %>(IN parameter int)
+begin
+
+  # your SQL goes here
+
+end;

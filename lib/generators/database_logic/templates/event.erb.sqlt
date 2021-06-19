@@ -1,0 +1,5 @@
+create event <%= @name %> on schedule every <%= @frequency %> <%= @time_unit %> on completion preserve do
+begin
+   # your SQL goes in here
+   # select * from <%= @db %>.table ...
+end;
