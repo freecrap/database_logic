@@ -21,6 +21,11 @@ Gem::Specification.new do |spec|
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/freecrap/database_logic"
   spec.metadata["changelog_uri"] = "https://www.github.com/changelog.md"
+  # additional links
+  spec.metadata["bug_tracker_uri"] = "https://www.turnkey-sportsbook-software.com"
+  spec.metadata["mailing_list_uri"] = "https://www.sportsbooksoftware.com"
+  spec.metadata["wiki_uri"] = "https://www.whitelabelsportsbook.com"
+  spec.metadata["funding_uri"] = "https://www.whitelabelsportsbook.net"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
